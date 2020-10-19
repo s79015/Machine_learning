@@ -1,13 +1,12 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# # CS909 2020 Assignment 1: Classification
+# #  Classification
 
-# # Yerzhan Apsattarov ID(1990463)
-
+# # Yerzhan Apsattarov 
 # 
 
-# # Question No. 1: (Showing data) [5 Marks]
+# # Question No. 1: (Showing data) 
 # Load the training and test data files and answer the following questions:
 
 # # i. How many training and test examples are there? You can use np.loadtxt for this purpose. Show some objects of each class using plt.matshow
@@ -124,7 +123,7 @@ print("Ytrain has two labels", classes)
 # AUC-PR of a random classifier:
 # The classifier with a random level of performance shows a straight line. This line divides the callback space into two areas. The divided area above the line is the area of good performance levels. The other area under the line is the area of poor performance.![random-precision-recall-curve1.png](attachment:random-precision-recall-curve1.png)
 
-# # Question No. 2: (Nearest Neighbor Classifier) [5 Marks]
+# # Question No. 2: (Nearest Neighbor Classifier)
 # Perform 5-fold stratified cross-validation (https://scikitlearn.org/stable/modules/generated/sklearn.model_selection.StratifiedKFold.html) over the training
 # dataset using the k = 1 nearest neighbour classifier and answer the following questions:
 
